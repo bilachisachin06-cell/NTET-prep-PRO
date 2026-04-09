@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: var(--font-pt-sans), Arial, Helvetica, sans-serif;
+  /* Prevent text selection across the app */
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* Prevent scrolling bounce on mobile for a more native feel */
+  overscroll-behavior-y: none;
+  /* Optimization for touch interaction delay */
+  touch-action: manipulation;
+}
+
+@layer base {
+  :root {
+    /* Eye-friendly Light Mode: Softer backgrounds, muted professional blues */
+    --background: 210 20% 98%;
+    --foreground: 222 47% 11%;
+    
+    --card: 0 0% 100%;
+    --card-foreground: 222 47% 11%;
+    
+    --popover: 0 0% 100%;
+    --popover-foreground: 222 47% 11%;
+    
+    --primary: 210 40% 45%;
+    --primary-foreground: 210 20% 98%;
+    
+    --secondary: 210 20% 94%;
+    --secondary-foreground: 222 47% 11%;
+    
+    --muted: 210 20% 94%;
+    --muted-foreground: 215 16% 47%;
+    
+    --accent: 142 30% 45%;
+    --accent-foreground: 210 20% 98%;
+    
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 210 20% 98%;
+    
+    --border: 214 32% 91%;
+    --input: 214 32% 91%;
+    --ring: 210 40% 45%;
+    
+    --radius: 0.75rem;
+
+    --sidebar-background: 210 20% 97%;
+    --sidebar-foreground: 222 47% 11%;
+    --sidebar-primary: 210 40% 45%;
+    --sidebar-primary-foreground: 210 20% 98%;
+    --sidebar-accent: 210 20% 92%;
+    --sidebar-accent-foreground: 210 40% 45%;
+    --sidebar-border: 214 32% 91%;
+    --sidebar-ring: 210 40% 45%;
+  }
+  .dark {
+    /* Eye-friendly Dark Mode: Deep charcoals, desaturated accents */
+    --background: 222 47% 11%;
+    --foreground: 210 20% 98%;
+    
+    --card: 222 47% 13%;
+    --card-foreground: 210 20% 98%;
+    
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 20% 98%;
+    
+    --primary: 210 40% 65%;
+    --primary-foreground: 222 47% 11%;
+    
+    --secondary: 217 33% 18%;
+    --secondary-foreground: 210 20% 98%;
+    
+    --muted: 217 33% 18%;
+    --muted-foreground: 215 20% 65%;
+    
+    --accent: 142 30% 65%;
+    --accent-foreground: 222 47% 11%;
+    
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 210 20% 98%;
+    
+    --border: 217 33% 18%;
+    --input: 217 33% 18%;
+    --ring: 210 40% 65%;
+
+    --sidebar-background: 222 47% 10%;
+    --sidebar-foreground: 210 20% 98%;
+    --sidebar-primary: 210 40% 65%;
+    --sidebar-primary-foreground: 222 47% 11%;
+    --sidebar-accent: 217 33% 18%;
+    --sidebar-accent-foreground: 210 40% 65%;
+    --sidebar-border: 217 33% 18%;
+    --sidebar-ring: 210 40% 65%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Scrollbar styling for native feel */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-muted-foreground/20 rounded-full;
+}

@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "syllabus-card",
+      "description": "A stack of plain educational textbooks, representing the syllabus and curriculum.",
+      "imageUrl": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&q=80&w=1080",
+      "imageHint": "plain textbooks"
+    },
+    {
+      "id": "notes-card",
+      "description": "A person writing notes in a notebook with a pen.",
+      "imageUrl": "https://images.unsplash.com/photo-1648412498608-fa20000ccbc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHx3cml0aW5nJTIwbm90ZXN8ZW58MHx8fHwxNzY0NTkyNjgwfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "writing notes"
+    },
+    {
+      "id": "practice-card",
+      "description": "A multiple choice question sheet with a pencil, showing a focused study environment.",
+      "imageUrl": "https://images.unsplash.com/photo-1606326608606-aa0b62935f2b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx0ZXN0JTIwcGFwZXJ8ZW58MHx8fHwxNzY0NjQ0ODMyfDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "test paper"
+    },
+    {
+      "id": "tests-card",
+      "description": "A person taking a test on a computer with a timer on screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxvbmxpbmUlMjBleGFtfGVufDB8fHx8MTc2NDY2NzQ3M3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "online exam"
+    }
+  ]
+}
